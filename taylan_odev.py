@@ -2,20 +2,15 @@ dolarDun = 7.65
 dolarBugun = 7.75
 
 if dolarDun > dolarBugun:
-    print("Artiş oku")
+    print("Azalış oku")
     print("Bitti")
     
-elif dolarDun < dolarBugun:
-    print("Azaliş oku")   
-else:
-    print("Eşittir oku")
+if dolarDun < dolarBugun:
+    print("Artış oku")   
+
+ if dolarDun == dolarBugun:
+    print("Eşittir Oku")
     
-print("Bitti")    
-       
-#if dolarDun < dolarDun:
-    #print("Azalış oku")    
-#if dolarDun == dolarBugun:
-    #print("Eşittir oku")
 
 
 #Bölüm Ödevi 1 #
